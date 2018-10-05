@@ -1,4 +1,8 @@
-%h1.text-center Hello! Please click on the cookie to recieve a fortune.
-= image_tag "images/cookie.jpg'
-insert cookie here.
-fortune_text
+%body
+  %h1.text-center Hello! Please click on the cookie to recieve a fortune.
+
+  .text-center
+    = @fortune.text
+  = link_to '#', id: "cookie-btn" do
+    - print "\a"
+    %p.text-center.cookie 🥠

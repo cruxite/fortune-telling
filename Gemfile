@@ -28,7 +28,8 @@ gem 'jbuilder', '~> 2.5'
 # gem 'bcrypt', '~> 3.1.7'
 
 gem 'haml-rails'
-gem 'faker'
+gem 'fortune_cookie', '~> 0.0.4'
+
 # Use ActiveStorage variant
 # gem 'mini_magick', '~> 4.8'
 
